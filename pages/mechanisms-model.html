@@ -1,0 +1,130 @@
+<!--HTML document structure-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+      <!--Adding Google fonts
+            1. Gowun Batang
+            2. Montserrat
+            3. Palette Mosaic
+            4. Ubuntu
+            5. WindSong
+            6. Cairo
+            7. Bungee Shade -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Gowun+Batang:wght@400;700&family=Montserrat:wght@100;200;400&family=Palette+Mosaic&family=Ubuntu:ital,wght@0,300;1,300&family=WindSong:wght@400;500&family=Yomogi&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;600&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
+
+
+      <style>
+        body{
+          font-family: 'Cairo', sans-serif;
+          margin-left:250px;
+          margin-right: 250px;
+        }
+        #step-description{
+            float: left;
+            margin-right: 800px
+
+        }
+
+        #step-image{
+            float: right;
+            margin-top: -500px;
+            margin-right: 50px;
+        }
+        #final-image{
+            display: block;
+            margin-left: auto;
+            margin-right:auto;
+        }
+        a:link {
+          color: rgb(126, 120, 120);
+          background-color: transparent;
+          text-decoration: none;
+        }
+        
+        a:visited {
+          color: rgb(63, 58, 59);
+          background-color: transparent;
+          text-decoration: none;
+        }
+        
+        a:hover {
+          color: rgb(122, 108, 109);
+          background-color: transparent;
+          text-decoration: underline;
+        }
+        
+        a:active {
+          color: rgb(39, 35, 35);
+          background-color: transparent;
+          text-decoration: underline;
+        }
+        </style>
+
+</head>
+<body>
+
+
+<!--Big header-->
+<h1><center><font style='font-family:Montserrat'><font style='font-size:
+  60px;'><a href="index.html">Liliko Uchida</a>
+  </font></font></center></h1>
+
+  <h5><em><center><font style='font-family:Montserrat'>Tufts University</font></center></em></h5>
+
+  <!--Selection menu-->
+  <p><center><font style='font-family:Montserrat'> <a href="/pages/about_me.html">about me |</a> <a href="/pages/engineering2.html">engineering |</a> <a href="/pages/reports_notes.html">project reports & notes |</a> <a href="/pages/music_art.html">music & arts</a> </font></center></p>
+
+
+<h1><center><font style='font-family:Bungee Shade'>mechanisms model</center></font></h1>
+<h3><center>Matplotlib . SOLIDWORKS . laser-cuttng</center></h3>
+
+<div id='step-description'>
+    <h2><font style='font-family:Montserrat'><strong>mathematical model</strong></font></h2>
+    <p>
+        To begin, I selected mechanism #145 from "507 Mechanical Movements". I then decided to model the velocity of slider B as it relates to the change in &theta; for the circular fly wheel. The image to the right shows my diagram of the mechanism along with assumptions being made, trigonometric relations within the mechanism, and calculations which ultimately resulted in an expression for the velocity of slider B in terms of any given function for &theta;. </p>
+
+    <h2><font style='font-family:Montserrat'><strong>plotting with python</strong></font></h2>
+    <p> 
+        Next, I plotted the velocity of slider B against time with a given function for theta (theta = 0.01t^2 for this example, but the user may insert any function for theta in the code) using Matplotlib. The resultant plot is shown below and the code can be found in my Github <a href="https://github.com/LilikoUchida-930/Mechanisms-Model/blob/main/Mathematical%20Model" target="_blank" rel="noopener noreferrer">here</a>.</p>
+
+
+</div>
+<div id='step-image'>
+    <img src="/images/mechanisms_model_calculations.png" height=900 width=700 alt="">
+</div>
+
+<img src="/images/mechanisms_model_plot.png" height=300 width=400 alt=""> 
+<br><br><br><br><br><br>
+
+<div id='step-description-final'>
+    <h2><font style='font-family:Montserrat'><strong>CAD model, motion study, high-fidelity prototyping</strong></font></h2>
+    <p>The final step to this project was to create a CAD model of my mechanism (images pending), perform a simple motion study and produce a plot to compare to the plot built from the math model (images pending), and finally to create a high-fidelity prototype. I made my prototype with acrylic. </p>
+</div>
+
+<br>
+<br>
+
+<div id='final-image'>
+   <center> <img src="/images/mechanisms_model.png" height=500 width=600 alt="" > 
+   </center>
+</div>
+
+
+
