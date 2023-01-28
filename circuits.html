@@ -1,0 +1,238 @@
+<!-- HEAD -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style2.css" rel="stylesheet" />
+    <title>Document</title>
+
+    <!-- Adding Google fonts: Inter, Rubik Moonrocks -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Rubik+Moonrocks&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <!-- BODY -->
+  <body>
+    <!-- The header element contains content that will appear at the top of every page within the site -->
+    <header>
+      <a href="/Physics.html"><h1 id="title">Physics Hub</h1></a>
+
+      <nav id="menu">
+        <li><a href="about.html">about me</a></li>
+        <li><a href="engineering.html">engineering</a></li>
+        <li><a href="music.html">music</a></li>
+        <li>
+          <a href="https://github.com/LilikoUchida-930" target="_blank"
+            >GitHub</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://snowy-parcel-c61.notion.site/Web-Development-18ad2605bb9a4228b0873b6b23f378e3"
+            target="_blank"
+            >How I made this website</a
+          >
+        </li>
+        <button>
+            <a href = "mailto: uchidaliliko@gmail.com"> Contact me</a>
+          </button></a> 
+      </nav>
+    </header>
+
+    <h1 class="unit-title">Introduction Circuits & Loads</h1>
+    <p class="content">
+      One of the ultimate purposes of studying electricity and charge is to be
+      able to understand electric circuits. An <em>electrical circuit</em> is a
+      network of electrical components and are responsible for the functionality
+      of all digital technology. Every circuit must have a source of power
+      (often a battery), wires to allow the flow of charge, one or more loads
+      (capacitors, resistors, inductors), and an output. Circuits rely on moving
+      charge to function. This moving charge is known as <em>current.</em> More
+      specifically, current is a rate of the flow of charge through a specific
+      point in a circuit. The unit for current is the ampere, A.
+
+      <center><p>I=&#916;Q/&#916;t</p></center>
+    </p>
+    <p class="content">
+      Current is induced when a voltage is present.
+      <em>Current density, J,</em> is a measure of current flowing through a
+      designated cross sectional area.
+      <center><p>J=I/A</p></center>
+    </p>
+    <center>
+      <img
+        style="width: 10%"
+        src="https://drive.google.com/uc?export=view&id=17bw0t_Q4FgXSuDpf7xvg-j0haxtzUxBp"
+        alt="Current density"
+      />
+    </center>
+    <center><h5>A cross section of a wire with current density J.</h5></center>
+    <p class="content">
+      The natural work of current is always from higher to lower potential.
+    </p>
+    <br />
+    <br />
+    <!-- Resistors -->
+    <h2 class="content">Resistors</h2>
+    <p class="content">
+      <em>Resistors</em> are the simplest type of electrical load and are used
+      to control the current through a circuit. Think of a resistor as a piece
+      of sponge stuck inside of a hose. Water will still flow through the hose,
+      but the flow will slow down at the sponge, and the pressure difference
+      will be larger for a thicker sponge than for a thinner one. Basically, a
+      resistor <em>resists</em> the flow of charge.
+    </p>
+    <center>
+      <img
+        style="width: 20%"
+        src="https://drive.google.com/uc?export=view&id=1zBQ_ZhyrmT81MXPMjeBW61U3PK-NLx-g"
+        alt="Resistor"
+      />
+    </center>
+    <center>
+      <h5>
+        A resistor resists the flow of charge through a circuit similar to how a
+        sponge resists the flow of water through a hose.
+      </h5>
+    </center>
+    <p class="content">
+      The potential drop at a resistor in terms of the current flowing through
+      it and its resistance is
+    </p>
+    <center><p>V=iR</p></center>
+    <p class="content">
+      This relationship between voltage, current, and resistence is known as
+      <em>Ohm's Law.</em>
+      For resistors in series, the total resistance is simply equal to the sum
+      of the individual resistances.
+      <center><p>R<sub>eq</sub>=R<sub>1</sub>+R<sub>2</sub>+...</p></center>
+    </p>
+
+    <p class="content">
+      R<sub>eq</sub> is the equivalent resistance, or the total resistance of
+      the circuit. Resistors in parallel sum differently. For resistors in
+      parallel, there resistance combined becomes
+      <center>
+        <p>1/R<sub>eq</sub>=1/R<sub>1</sub>+1/R<sub>2</sub>+...</p>
+      </center>
+      <center>
+        <img
+          style="width: 40%"
+          src="https://drive.google.com/uc?export=view&id=1tt_weBELPC8zFadBDYD2mA6IRFGhqyce"
+          alt="Equivalent resistances"
+        />
+      </center>
+      <center>
+        <h5>Equivalent resistance for different resistor combinations</h5>
+      </center>
+    </p>
+    <br />
+    <br />
+
+    <!-- Capacitors -->
+    <h2 class="content">Capacitors</h2>
+    <p class="content">
+      Capacitors were discussed more in detail
+      <a href="/conductors_capacitors.html" target="_blank">here.</a> In brief
+      summary though, capacitors store charge. When they are uncharged, they
+      behave as a wire and can short a circuit. However, once they are fully
+      charged, current can no longer run through them and they behave as a
+      broken wire. The equations for capacitors are as follows:
+    </p>
+    <center>
+      <p>C=(&#922;&#949;<sub>o</sub>A)/d if there is a dielectric</p>
+    </center>
+    <center><p>C=(&#949;<sub>o</sub>A)/d if there is only air</p></center>
+    <center>
+      <p>Q=CV</p>
+    </center>
+    <center>
+      <p>C=Q/V</p>
+    </center>
+    <center>
+      <p>U=(QV)/2=(CV<sup>2</sup>)/2</p>
+    </center>
+    <center>
+      <p>C=C<sub>1</sub>+C<sub>2</sub>+... for capacitors in parallel</p>
+    </center>
+
+    <center>
+      <p>
+        1/C<sub>total</sub>=1/C<sub>1</sub>+1/C<sub>2</sub>+... for capacitors
+        in series
+      </p>
+    </center>
+    <p class="content">
+      Like resistors, if a circuit includes some capacitors in series and some
+      in parallel, the equivalent capacitance can be found simply by adding the
+      equivalent capacitances of each occurence.
+    </p>
+    <br />
+    <br />
+
+    <!-- Inductors -->
+    <h2 class="content">Inductors</h2>
+    <p class="content">
+      An <em>inductor</em> is just a wire looped around a tube and is
+      responsible for opposing changes in current.
+    </p>
+    <center>
+      <img
+        style="width: 20%"
+        src="https://drive.google.com/uc?export=view&id=1Kcl27qqS-WyA6CxM-uEhKdUw-4O70Qbt"
+        alt="Inductor"
+      />
+    </center>
+    <center><h5>An inductor is a wire looped around a tube.</h5></center>
+  </body>
+  <p class="content">
+    The number of loops around the tube is called N. More about the theory on
+    conductors will be discussed in a later section after magnetism, since
+    inductors rely heavily on that topic. For now, know that all inductors have
+    an inductance L, and the voltage drop at an inductor in a circuit is
+  </p>
+
+  <center><p>V=L(di/dt)</p></center>
+  <br />
+  <br />
+
+  <!-- Analyzing circuits -->
+  <h2 class="content">Analyzing electric circuits</h2>
+  <p class="content">
+    The easiest way to understand how to analyze a circuit is to use a water
+    flow analogy. Consider a single pipe of uniform cross section with some
+    water flowing through it at a constant flow rate. The flow rate at one point
+    of that pipe will be equal to the flow rate at any other point within that
+    pipe. Now, imagine that this pipe suddenly breaks off into two pipes like a
+    fork in the road. One of these pipes which branch off from the main one is
+    much narrower than the other. So, the water flow which first starts in the
+    main pipe will break off into the two branches at different amounts. The
+    total amount of flow through the branched pipes is equal to the total flow
+    before the water split at the node.
+  </p>
+  <center>
+    <img
+      style="width: 20%"
+      src="https://drive.google.com/uc?export=view&id=16Qv8zXJnnbzPidI1Ou56RZD-1ejbl1v_"
+      alt="Flow analogy"
+    />
+    <h5>Water flowing through a pipe</h5>
+  </center>
+
+  <p class="content">
+    In this analogy, the water flow is the current, the point at which the
+    larger pipe breaks off into two smaller pipes is the node, and the different
+    sizes of the smaller pipes which therefore affect the flow of water through
+    them represents an electric load of varying magnitude. In the next section,
+    we will discuss more on how to analyze an electrical circuit and do several
+    examples.
+  </p>
+  <br />
+  <br />
+</html>

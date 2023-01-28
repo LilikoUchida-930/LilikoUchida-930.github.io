@@ -1,0 +1,92 @@
+#title {
+  font-family: "Rubik Moonrocks";
+  color: black;
+  font-size: 70px;
+  line-height: 0;
+  margin-top: 5%;
+  padding-left: 3%;
+}
+
+/* Navigation stylization */
+nav {
+  padding-top: 5px;
+  background-color: rgb(117, 216, 216);
+  padding-bottom: 10px;
+}
+nav li {
+  display: inline;
+  padding-left: 3%;
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+  font-family: "Inter";
+}
+a:visited {
+  color: black;
+}
+a:hover {
+  color: rgb(49, 150, 168);
+}
+a:active {
+  font-style: oblique;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol {
+  font-family: "Inter";
+  line-height: 1.5;
+}
+#page-description {
+  margin-top: 3%;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 18px;
+}
+#group1 {
+  margin-top: 5%;
+}
+
+#EM {
+  margin-top: 5%;
+}
+article {
+  position: center;
+}
+
+.unit-title {
+  margin-left: 10%;
+}
+
+.content {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+img {
+  display: block;
+  margin-top: 3%;
+  margin-left: auto;
+  margin-right: auto;
+}
+li {
+  font-family: "Inter";
+  line-height: 1.5;
+}
+button {
+  background-color: #89cff0;
+  font-family: "Inter";
+  border-radius: 10px;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  float: right;
+  margin-right: 5%;
+}
