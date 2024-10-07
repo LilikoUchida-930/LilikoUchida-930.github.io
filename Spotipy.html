@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <title>Document</title>
+
+    <!-- Adding Google fonts -->
+      <!-- EB+Garamond, Lato, Playfair+Display, Poppins, Passions Conflict, Raleway -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Lato&family=Noto+Sans+JP:wght@900&family=Passions+Conflict&family=Petit+Formal+Script&family=Playfair+Display&family=Poppins:wght@300&family=Raleway&family=Roboto:wght@100&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <!-- The header element contains content that will appear at the top of every page within the site -->
+    <header>
+      <article id="top-left">
+        <a href="/index.html"><h1 id="name-logo">Liliko Uchida</h1></a>
+        <h4 id="description"><em>Mechanical Engineer, Physicist</em></h4>
+      </article>
+
+      <article id="top-right">
+        <button>
+          <a href = "mailto: uchidaliliko@gmail.com"> Contact me</a>
+        </button></a>  
+        <nav>
+          <li><a href="about.html">about me</a></li>
+          <li><a href="engineering.html">engineering</a></li>
+          <li><a href="/Physics.html">physics</a></li>
+          <li><a href="music.html">music</a></li>
+          <li><a href="https://github.com/LilikoUchida-930" target="_blank">GitHub</a></li>
+          <li><a href="https://snowy-parcel-c61.notion.site/Web-Development-18ad2605bb9a4228b0873b6b23f378e3" target="_blank">How I made this website</a></li>
+        </nav>
+      </article>
+    </header>
+    <h1 class="project-title">SpotiPy Audio Analytics 2020</h1>
+    <h5 class="project-title">Spotipy: Spotify's API for developers, Python, Mean-shift clustering algorithm</h5>
+    <p style="margin: 5%"> For this project, I created a mean-shift clustering algorithm in Python to analyze the relationship between various audio analytics and extract insight on users' listening history. The program takes an input data base of any number of tracks and outputs linear regression models for various audio analytics relationships based on the samples. Then, it executes a mean-shift clustering algorithm on the input data to intelligently cluster input tracks into groups of similar audio analytical relationships which determine particular characteristics. For example, the program may be run on input data to extract a relationship between danceability and energy. The input samples will then be split into the appropriate amount of clusters (determined by the algorithm) where each cluster has similar energy and danceability analytics, determining their mood characteristic. The Spotify for Developers API was used for this project.  </p>
+    <iframe width="405" height="300"
+      id="spotipy-video"
+      src="https://www.youtube.com/embed/Tjfk3MrWSio">
+      allow="autoplay"
+      </iframe>
+  </body>
+</html>
