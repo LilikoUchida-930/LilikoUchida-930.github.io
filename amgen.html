@@ -1,0 +1,97 @@
+<!-- HEAD -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <title>Document</title>
+
+    <!-- Adding Google fonts -->
+       <!-- EB+Garamond, Lato, Playfair+Display, Poppins, Passions Conflict, Raleway -->
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Lato&family=Noto+Sans+JP:wght@900&family=Passions+Conflict&family=Petit+Formal+Script&family=Playfair+Display&family=Poppins:wght@300&family=Raleway&family=Roboto:wght@100&display=swap" rel="stylesheet">
+  </head>
+
+  <!-- BODY -->
+  <body>
+    <!-- The header element contains content that will appear at the top of every page within the site -->
+    <header>
+      <article id="top-left">
+        <a href="/index.html"><h1 id="name-logo">Liliko Uchida</h1></a>
+        <h4 id="description"><em>Mechanical Engineer, Physicist</em></h4>
+      </article>
+
+      <article id="top-right">
+        <button>
+          <a href = "mailto: uchidaliliko@gmail.com"> Contact me</a>
+        </button></a>  
+        <nav>
+          <li><a href="about.html">about me</a></li>
+          <li><a href="engineering.html">engineering</a></li>
+          <li><a href="/Physics.html">physics</a></li>
+          <li><a href="music.html">music</a></li>
+          <li><a href="https://github.com/LilikoUchida-930" target="_blank">GitHub</a></li>
+          <li><a href="https://snowy-parcel-c61.notion.site/Web-Development-18ad2605bb9a4228b0873b6b23f378e3" target="_blank">How I made this website</a></li>
+        </nav>
+      </article>
+    </header>
+
+
+    <h1 class="project-title">
+      Syringe Needle Measurement System - In partnership with Amgen
+    </h1>
+    <h4 class="project-title">
+      Fluid dynamics, Arduino, SOLIDWORKS, soldering
+    </h4>
+
+    <article class="project">
+      <!-- Project image -->
+     <center> <img
+        width="100px"
+        height="500px"
+        alt="Amgen image"
+        src="https://drive.google.com/thumbnail?id=1e0qIRVJjsowj3dTBYn8iubCucEo5iA1N&sz=w800"
+        /></center>
+
+      <!-- Image caption -->
+      <center><h5>Final prototype</h5></center>
+
+      <!-- Problem statement -->
+      <h3 class="heading"><strong>Problem Statement</strong></h3>
+      <p class="description">
+          Amgen is a biopharmeceutical company and pioneers a variety of medicines using living cells, many of which are intended to be administered by the patient at home. Self-injection of drugs can be a painful experience, and excessive discomfort may deter the patient from routinely taking their daily dosage. Pain during drug injection is primarily caused by a large pressure drop between the base and tip of the syringe needle. The geometrical factor which most sensitively affects this pressure drop is the effective internal diameter (ID). While needles are manufactured to have a specified nominal diameter yielding a tolerable pressure drop during injection, tolerances allow occassional outputs with IDs too large or small for a comfortable user experience. The objective of this project was to design and build a system which measures the effective ID of individual needles to determine whether they lie within an acceptable diameter range for patient use. 
+        
+<!-- Current solutions -->
+      <h3 class="heading"><strong>Current Solutions</strong></h3>
+
+      <p class="description">
+      The current solution to this issue is the Instron ISO 9626. While this system is intended to measure the mechanical properties of steel metals such as strength, durability, and bending, Amgen has developed a method to utilize the Instron functionalities to measure the effective ID of individual needles. While this current solution serves its purpose, there are several downfalls which call for improvements provided by our solution. <br> Firstly, this machine is very expensive, pricing at several thousand USD.  This limits Amgen to only owning one of these machines and consequentially only allowing them to test one needle at a time. Secondly, the Instron machine relies on multiple sensor inputs, creating opportunities for more calibration and technical sources of error. As it will be described in a later section, or solution only requires one sensor input. 
+</p>
+
+<!-- Our solutions -->
+      <h3 class="heading"><strong>Our Solution</strong></h3>
+      <p class="description">
+        To challenge our problem statement as well as provide an improved solution to the current Instron method, my team and I designed a system which relies on
+        a gravity-driven linear bearing and fluid dynamics calculations. Our
+        design uses an automated timing system composed of a loadcell start
+        trigger and button stop trigger. When the weight comes in contact with the top of the syringe plunger as shown in the video, a timer is initiated. Once the weight reaches the bottom and the syringe is fully dispensed, the weight clicks a button which then stops the timer. The duration for a 3mL syringe with a
+        needle gauge of choice to fully dispense via a constant pressure from
+        the linear bearing gravitational force is recorded. This time is then used as an input to
+        the Hagen-Poisseuille equation in MATLAB to return the effective internal diameter
+        of the needle. 
+      </p>
+  
+      <br>
+
+
+  
+
+ 
+    
+    
+    </article> 
+  </body>
+</html>
